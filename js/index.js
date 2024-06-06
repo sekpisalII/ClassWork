@@ -9,4 +9,4 @@ let users = await getData("users");
 products.map(
   (product) => (productRender.innerHTML += ProductComponent(product))
 );
-users.map((user) => (userRender.innerHTML += CardComponent(user)));
+// users.map((user) => (userRender.innerHTML += CardComponent(user)));
